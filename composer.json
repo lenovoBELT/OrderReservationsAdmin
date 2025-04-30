@@ -1,0 +1,9 @@
+{
+    "name": "lenovoBARBO/reservations-qty-admin",
+    "description": "This module displays the actual order reservations on product grid",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": ">=103",
+        "php": "^8.2"
+    }
+}

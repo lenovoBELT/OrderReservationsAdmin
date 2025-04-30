@@ -1,0 +1,36 @@
+<!--
+    **
+    * LenovoBARBO | ReservationQtyAdmin
+    *
+    * @vendor  LenovoBARBO
+    * @package ReservationQtyAdmin
+    *
+    * @copyright Copyright (c) 2025 LenovoBARBO
+    *
+    * @author Leandro Barboza dos Santos <barboza63sd@hotmail.com>
+    **
+-->
+
+<div class="data-grid-cell-content">
+    <ul data-bind="foreach: { data: $col.getReservationQuantityData($row()), as: '$reservationQuantityData' }">
+<!--        <li>-->
+<!--            <strong data-bind="i18n: 'Subscription Reservation'"></strong>:-->
+<!--            <span data-bind="text: $reservationQuantityData.subscription_reservation"></span>-->
+<!--        </li>-->
+<!--        <hr>-->
+<!--        <li>-->
+<!--            <strong data-bind="i18n: 'Minimum to Out of stock'"></strong>:-->
+<!--            <span data-bind="text: $reservationQuantityData.minimum_to_out_of_stock"></span>-->
+<!--        </li>-->
+<!--        <hr>-->
+        <li>
+<!--            <strong data-bind="i18n: 'Order Reservations'"></strong>:-->
+            <span data-bind="text: $reservationQuantityData.order_reservations"></span>
+        </li>
+<!--        <hr>-->
+<!--        <li>-->
+<!--            <strong data-bind="i18n: 'Available In Stock'"></strong>:-->
+<!--            <span data-bind="text: $reservationQuantityData.available_in_stock"></span>-->
+<!--        </li>-->
+    </ul>
+</div>

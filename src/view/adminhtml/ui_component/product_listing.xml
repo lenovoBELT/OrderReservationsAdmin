@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+    **
+    * LenovoBARBO | ReservationQtyAdmin
+    *
+    * @vendor  LenovoBARBO
+    * @package ReservationQtyAdmin
+    *
+    * @copyright Copyright (c) 2025 LenovoBARBO
+    *
+    * @author Leandro Barboza dos Santos <barboza63sd@hotmail.com>
+    **
+-->
+
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="product_columns">
+        <column name="reservation_quantity"
+                class="Beltnutrition\ReservationQtyAdmin\Ui\Component\Listing\Column\ReservationQty"
+                component="Beltnutrition_ReservationQtyAdmin/js/product/grid/cell/reservation-quantity"
+                sortOrder="77">
+            <settings>
+                <filter>false</filter>
+                <sortable>false</sortable>
+                <label translate="true">Order Reservations</label>
+            </settings>
+        </column>
+    </columns>
+</listing>

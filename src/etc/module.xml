@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+    **
+    * LenovoBARBO | ReservationQtyAdmin
+    *
+    * @vendor  LenovoBARBO
+    * @package ReservationQtyAdmin
+    *
+    * @copyright Copyright (c) 2025 LenovoBARBO
+    *
+    * @author Leandro Barboza dos Santos <barboza63sd@hotmail.com>
+    **
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="LenovoBARBO_ReservationQtyAdmin" />
+</config>
